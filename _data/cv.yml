@@ -2,96 +2,87 @@
   type: map
   contents:
     - name: Full Name
-      value: Albert Einstein
-    - name: Date of Birth
-      value: 14th March 1879
-    - name: Languages
-      value: English, German
+      value: Amirhossein Farzmahdi
+    - name: Location
+      value: New York, NY
+#    - name: Status
+#      value: U.S. Permanent Resident
+#    - name: Languages
+#      value: English, Persian
 
 - title: Education
   type: time_table
   contents:
-    - title: PhD
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1905
-      description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Federal teaching diploma
-      institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
-      year: 1900
-      description:
-        - Description 1.
-        - Description 2.
+    - title: Ph.D. in Computational Neuroscience
+      institution: Institute for Research in Fundamental Sciences, Tehran, Iran
+      year: 2021
+    - title: M.Sc. in Electrical Engineering
+      institution: Amirkabir University of Technology, Tehran, Iran
+      year: 2014
+    - title: B.Sc. in Electrical Engineering
+      institution: Shahid Rajaee University, Tehran, Iran
+      year: 2010
 
 - title: Experience
   type: time_table
   contents:
-    - title: Professor of Theoretical Physics
-      institution: Institute for Advanced Study, Princeton University
-      year: 1933 - 1955
+    - title: Research Scientist
+      institution: Columbia University, Zuckerman Institute
+      year: Jan 2025 – Present
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Visiting Professor
-      institution: California Institute of Technology, Pasadena, California, US
-      year: 1933
+        - Developed deep learning models to align internal representations with neural data.
+        - Applied RSA and alignment methods to evaluate model interpretability.
+        - Integrated neuroscience insights into biologically plausible AI systems.
+    - title: Research Scientist
+      institution: Albert Einstein College of Medicine
+      year: Mar 2021 – Jan 2025
       description:
-        - Description 1.
-        - Description 2.
-
-    - title: Director
-      institution: Kaiser Wilhelm Institute for Physics, Berlin, Germany.
-      year: 1917-1933
-
-    - title: Professor of Theoretical Physics
-      institution: Karl-Ferdinand University, Prague, Czechoslovakia
-      year: 1911 - 1917
+        - Built probabilistic inference pipelines for high-dimensional neural data.
+        - Applied statistical learning to model neural and image structures.
+        - Led end-to-end research projects across modeling and analysis.
+    - title: Research Assistant
+      institution: Rockefeller University
+      year: Oct 2018 – Feb 2021
       description:
+        - Studied symmetry-based invariance using CNNs and Vision Transformers.
+        - Applied interpretability tools like RISE and Shapley metrics.
+        - Contributed to dataset curation and empirical validation.
+    - title: Research Assistant
+      institution: Institute for Research in Fundamental Sciences
+      year: Sep 2015 – Oct 2018
+      description:
+        - Designed neural architectures for face recognition in primates.
+        - Combined EEG and behavioral experiments to study visual flexibility.
 
-    - title: Associate Professor of Theoretical Physics
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1909 - 1911
+#- title: Selected Publications
+#  type: time_table
+#  contents:
+#    - title: Natural image statistics shape neural covariability
+#      year: 2025
+#      description:
+#        - Farzmahdi A. et al., Nature Communications
+#    - title: Mirror-symmetric viewpoint tuning in DNNs
+#      year: 2024
+#      description:
+#        - Farzmahdi A. et al., eLife
 
-- title: Open Source Projects
-  type: time_table
-  contents:
-    - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
-      year: 2015-now
-      description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
-
-- title: Honors and Awards
-  type: time_table
-  contents:
-    - year: 1921
-      items:
-        - Nobel Prize in Physics
-        - Matteucci Medal
-    - year: 2029
-      items:
-        - Max Planck Medal
-
-- title: Academic Interests
+- title: Technical Skills
   type: nested_list
   contents:
-    - title: Topic 1.
+    - title: Modeling & Inference
       items:
-        - Description 1.
-        - Description 2.
-    - title: Topic 2.
+        - Probabilistic and generative modeling, Bayesian inference, large-scale analysis
+    - title: Neuroscience and Cognitive Science Methods
       items:
-        - Description 1.
-        - Description 2.
+        - EEG, eye tracking, encoding models, RSA
+    - title: Programming & Tools
+      items:
+        - Python, MATLAB, R; Git, LaTeX
+    - title: Communication & Teaching
+      items:
+        - AI course co-instruction, mentoring, collaborative research
 
-- title: Other Interests
-  type: list
-  contents:
-    - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
+#- title: Other Interests
+#  type: list
+#  contents:
+#    - Volleyball, Movies, collaborative software design

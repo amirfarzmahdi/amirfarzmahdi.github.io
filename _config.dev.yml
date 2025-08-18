@@ -2,7 +2,7 @@
 
 # Use a minimal plugin set locally
 plugins:
-  - jekyll/scholar
+  - jekyll-scholar
   - jekyll-sitemap
   - jekyll-feed            # optional; safe
 

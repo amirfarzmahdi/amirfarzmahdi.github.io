@@ -89,5 +89,5 @@ sass:
 
 # --- Plugins (lean) ---
 plugins:
-  - jekyll/scholar
+  - jekyll-scholar
   - jekyll-sitemap

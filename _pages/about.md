@@ -7,7 +7,7 @@ subtitle:
 
 profile:
   align: center
-  image: "{{ '/assets/img/amir.jpg' | relative_url }}"
+  image: amir.jpg 
   image_circular: false # crops the image to make it circular
   more_info: >
 

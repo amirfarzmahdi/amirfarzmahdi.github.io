@@ -5,8 +5,9 @@ last_name: Farzmahdi
 description: >
   A simple, whitespace site.
 lang: en
-url: https://amirfarzmahdi.github.io
-baseurl:
+
+url: "https://amirfarzmahdi.github.io"
+baseurl: ""
 
 
 # --- Layout ---

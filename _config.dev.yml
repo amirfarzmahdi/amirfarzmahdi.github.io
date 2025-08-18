@@ -1,0 +1,14 @@
+# _config.dev.yml (local development overrides)
+
+# Use a minimal plugin set locally
+plugins:
+  - jekyll/scholar
+  - jekyll-sitemap
+  - jekyll-feed            # optional; safe
+
+# Optional: turn off imagemagick while iterating (faster)
+imagemagick:
+  enabled: false
+
+# Optional: disable progress bar if it annoys you
+enable_progressbar: false

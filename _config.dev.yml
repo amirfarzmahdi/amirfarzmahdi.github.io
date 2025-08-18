@@ -11,4 +11,4 @@ imagemagick:
   enabled: false
 
 # Optional: disable progress bar if it annoys you
-enable_progressbar: false
+enable_progressbar: true

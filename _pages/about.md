@@ -7,7 +7,7 @@ subtitle:
 
 profile:
   align: center
-  image: /assets/img/amir.jpg
+  image: /amirfarzmahdi.github.io/assets/img/amir.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
 

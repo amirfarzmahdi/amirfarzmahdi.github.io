@@ -1,0 +1,93 @@
+# --- Site ---
+title: blank
+first_name: Amir
+last_name: Farzmahdi
+description: >
+  A simple, whitespace site.
+lang: en
+
+url: "https://amirfarzmahdi.github.io"
+baseurl:
+
+
+# --- Layout ---
+navbar_fixed: true
+footer_fixed: true
+max_width: 1000px
+back_to_top: false
+enable_darkmode: true
+enable_math: true
+enable_masonry: false
+enable_project_categories: false
+enable_medium_zoom: false
+enable_progressbar: false
+enable_video_embedding: false
+enable_navbar_social: false
+
+# --- Links ---
+external_links:
+  enabled: true
+  rel: external nofollow noopener
+  target: _blank
+
+# --- Publications (Jekyll Scholar) ---
+enable_publication_thumbnails: true
+max_author_limit: 5
+scholar:
+  last_name: [Farzmahdi]
+  first_name: [Amir]
+  style: apa
+  locale: en
+  source: /_bibliography/
+  bibliography: papers.bib
+  bibliography_template: bib
+  bibtex_filters: [latex, smallcaps, superscript]
+  replace_strings: true
+  join_strings: true
+  details_dir: bibliography
+  details_link: Details
+  query: "@*"
+  group_by: year
+  group_order: descending
+
+# --- Images ---
+imagemagick:
+  enabled: true
+  widths: [480, 800, 1400]
+  input_directories: [assets/img/]
+  input_formats: [".jpg", ".jpeg", ".png", ".tiff", ".gif"]
+  output_formats:
+    webp: "-quality 85"
+lazy_loading_images: true
+
+collections:
+  projects:
+    output: true
+
+# --- Build ---
+markdown: kramdown
+highlighter: rouge
+kramdown:
+  input: GFM
+  hard_wrap: false
+  html_to_native: true
+  syntax_highlighter_opts:
+    css_class: "highlight"
+    span: { line_numbers: false }
+    block: { line_numbers: false, start_line: 1 }
+
+include: ["/_pages"]
+exclude:
+  - bin/
+  - vendor
+  - node_modules/
+  - README.md
+  - LICENSE
+
+sass:
+  style: compressed
+
+# --- Plugins (lean) ---
+plugins:
+  - jekyll/scholar
+  - jekyll-sitemap

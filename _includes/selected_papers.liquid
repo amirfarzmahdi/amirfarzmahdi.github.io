@@ -1,3 +1,6 @@
 <div class="publications">
+  {% comment %} GitHub Pages can't run jekyll-scholar; disabling for deploy {% endcomment %}
+  {%- comment -%}
   {% bibliography --group_by none --query @*[selected=true]* %}
+  {%- endcomment -%}
 </div>
